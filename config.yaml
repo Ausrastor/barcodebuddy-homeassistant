@@ -12,8 +12,6 @@ arch:
 - amd64
 - armv7
 - i386
-devices:
-- /dev/input/event3
 boot: auto
 init: false
 map:
