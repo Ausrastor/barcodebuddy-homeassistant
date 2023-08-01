@@ -28,7 +28,6 @@ options:
   curl_allow_insecure_ssl_ca: false
   curl_allow_insecure_ssl_host: false
   ATTACH_BARCODESCANNER: false
-  devices: /dev/input/event3
 schema:
   require_api_key: bool
   disable_auth: bool
@@ -36,5 +35,4 @@ schema:
   curl_allow_insecure_ssl_ca: bool
   curl_allow_insecure_ssl_host: bool
   ATTACH_BARCODESCANNER: bool
-  devices: text
-  
+devices: /dev/input/event3
