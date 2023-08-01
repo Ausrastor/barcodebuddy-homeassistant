@@ -36,5 +36,5 @@ schema:
   curl_allow_insecure_ssl_ca: bool
   curl_allow_insecure_ssl_host: bool
   ATTACH_BARCODESCANNER: bool
-  devices: list
+  devices: text
   
