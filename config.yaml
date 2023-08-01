@@ -12,6 +12,8 @@ arch:
 - amd64
 - armv7
 - i386
+devices:
+- /dev/input/event3
 boot: auto
 init: false
 map:
@@ -35,4 +37,3 @@ schema:
   curl_allow_insecure_ssl_ca: bool
   curl_allow_insecure_ssl_host: bool
   ATTACH_BARCODESCANNER: bool
-devices: /dev/input/event3
